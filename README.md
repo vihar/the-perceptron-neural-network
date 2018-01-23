@@ -67,3 +67,10 @@ for row in dataset:
     #my_prediction = predict()
     print("Expected=%d, Predicted=%d" % (row[-1], prediction))
 ```
+
+**Bias In Activation Function:**
+
+```python
+activation = (w1 * X1) + (w2 * X2) + bias
+```
+
