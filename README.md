@@ -13,14 +13,17 @@ The most basic form of an activation function is a simple binary function that h
 ### Implementation
 
 **1.Each input gets scaled up or down**
+
 When a signal comes in, it gets multiplied by a weight value that is assigned to this particular input. That is, if a neuron has three inputs, then it has three weights that can be adjusted individually. During the learning phase, the neural network can adjust the weights based on the error of the last test result.
 
 **2.All signals are summed up**
+
 In the next step, the modified input signals are summed up to a single value. In this step, an offset is also added to the sum. This offset is called bias. The neural network also adjusts the bias during the learning phase.
 
 This is where the magic happens! At the start, all the neurons have random weights and random biases. After each learning iteration, weights and biases are gradually shifted so that the next result is a bit closer to the desired output. This way, the neural network gradually moves towards a state where the desired patterns are “learned”.
 
 **3. Activation**
+
 Finally, the result of the neuron’s calculation is turned into an output signal. This is done by feeding the result to an activation function (also called transfer function).
 
 
