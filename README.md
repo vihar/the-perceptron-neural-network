@@ -30,7 +30,7 @@ Code!
 
 ##### Make a prediction with weights, Predict Function.
 
-```python3
+```python
 def predict(row, weights):
     activation = weights[0]
     for i in range(len(row) - 1):
@@ -41,7 +41,7 @@ def predict(row, weights):
 
 ##### training data
 
-```python3
+```python
 dataset = [[2.7810836, 2.550537003, 0],
            [1.465489372, 2.362125076, 0],
            [3.396561688, 4.400293529, 0],
@@ -56,7 +56,7 @@ dataset = [[2.7810836, 2.550537003, 0],
 
 ##### Predict
 
-```python3
+```python
 weights = [-0.1, 0.20653640140000007, -0.23418117710000003]
 
 for row in dataset:
